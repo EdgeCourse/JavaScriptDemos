@@ -1,0 +1,10 @@
+{
+    "customers": [
+        { "id": 1, "name": "John Doe" },
+        { "id": 2, "name": "Jane Smith" }
+    ],
+    "equipment": [
+        { "id": 101, "name": "Laptop", "customerId": 1 },
+        { "id": 102, "name": "Bulldozer", "customerId": 2 }
+    ]
+}

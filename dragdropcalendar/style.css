@@ -1,0 +1,19 @@
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.day {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    min-height: 100px; /* Ensure enough space for events */
+}
+
+.event {
+    background-color: lightblue;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 5px;
+    cursor: move;
+}
